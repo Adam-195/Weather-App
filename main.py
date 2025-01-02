@@ -3,7 +3,7 @@ import requests
 import geocoder
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QMessageBox)
 from PyQt5.QtCore import Qt
-from cred import api_key
+from cred import api_key #You may need to get your own API KEY from https://openweathermap.org/weather-conditions
 
 
 class WeatherApp(QWidget):
